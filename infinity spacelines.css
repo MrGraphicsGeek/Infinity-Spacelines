@@ -1,0 +1,1222 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Quicksilver Italic';
+	src: url("fonts/QuicksilverItalic-OV9Z4.ttf");
+}
+
+header {
+	background-color: #002269;
+	position: sticky;
+	top: 0;
+	padding-top: 1px;
+	box-shadow: 0px 2px 5px 0px black;
+}
+
+.logo {
+	margin: 13px auto 10px auto;
+	text-align: center;
+}
+.logo img {
+	margin-left: 6px;
+}
+body {
+	background-color: #bdcbff;
+	margin: auto;
+}
+
+/*Nav*/
+
+nav {
+	background-color: #405582;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+nav a {
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family:  "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	text-decoration: none;
+	margin-right: 50px;
+	margin-left: 10px;
+}
+
+nav a:hover {
+	color: #bdcbff;
+}
+
+/*Nav End*/
+
+.maincontainer {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1300px;
+	width: auto;
+	padding: 0px 20px 0px 20px;
+}
+
+.subheader {
+	text-align: center;
+	font-family:  "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";	
+}
+.mainimg {
+	margin: 50px auto 0px auto;
+	text-align: center;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	padding: 0px 20px 0px 20px;
+}
+.mainimg img {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+}
+.longimages {
+	margin: 30px 0px 50px 0px;
+}
+.longimage {
+	margin: 20px 0px 20px 0px;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+/*Form*/
+
+.mainform {
+	background-color: #002269;
+	margin: 40px auto 50px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	height: 95px;
+	max-width: 1250px;
+	float: center;
+	box-shadow: 10px 10px #405582;
+}
+
+.mainform label, select, input {
+	display: block;
+}
+.mainform select {
+	height: 49px;
+	width: 150px;
+	font-size: 20px;
+	border-style: none;
+}
+.mainform input {
+	height: 49px;
+	width: 150px;
+	font-size: 20px;
+	border-style: none;
+}
+.mainform label {
+	margin-bottom: 15px;
+	text-align: left;
+}
+.mainformelement {
+	float: center;
+	display: inline-block;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+.mainformsubmit {
+	color: white;
+	background-color: #405582;
+	border: none;
+	padding: 10px;
+	margin-left: 50px;
+	margin-top: -48px;
+	cursor: pointer;
+}
+.mainformsubmit:hover {
+	background-color: #66779b;
+}
+
+/*Form End*/
+
+/*Cards*/
+
+.cards {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+}
+.cardrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px 10px 0px 10px;
+	max-width: 100%;
+	width: auto;
+}
+
+.card {
+	background-color: white;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+}
+
+.card img {
+	max-width: 100%;
+}
+
+.card h3 {
+	font-size: 17px;
+	margin-bottom: 35px;
+}
+
+.card button {
+	color: white;
+	background-color: #002269;
+	border: none;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin-top: -50px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	
+}
+.card button:hover {
+	background-color: #405582;
+}
+
+/*Cards End*/
+
+/*Destinations*/
+
+.destinationblock {
+	margin: 30px auto 70px auto;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	max-width: 1300px;
+	height: auto;
+}
+.destinationrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.destinationblock h2 {
+	padding-left: 40px;
+	text-align: left;
+	margin: 20px auto 20px auto;
+}
+.destination {
+	margin: 20px;
+}
+.destination img {
+	max-width: 100%;
+}
+
+/*Destinations End*/
+
+/* Our Starships*/
+
+.starshipsone {
+	margin: 30px auto 50px auto;
+}
+
+.starshipsone h2 {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	padding-left: 40px;
+}
+
+.starshipstwo {
+	margin: 30px auto 100px auto;
+}
+
+.starshipstwo h2 {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	padding-left: 40px;
+}
+.infobox {
+	background-color: #002269;
+	height: 315px;
+	width: 1300px;
+	margin: 40px 0px 70px 0px;
+	box-shadow: 15px 15px #405582;
+	max-width: 100%;
+}
+.infoboxtext {
+	color: white;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	float: left;
+	text-align: center;
+	padding: 10px 30px 10px 30px;
+	margin: -240px 550px 0px 0px;
+}
+
+.infobox img {
+	float: right;
+}
+
+.infobox2 {
+	background-color: #002269;
+	height: 315px;
+	width: 1300px;
+	box-shadow: 15px 15px #405582;
+	max-width: 100%;
+}
+.infoboxtext2 {
+	color: white;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	float: right;
+	text-align: center;
+	padding: 10px 30px 10px 30px;
+	margin: -240px 0px 0px 550px;
+}
+.infobox2 img {
+	float: left;
+}
+
+.shipamenities {
+	text-align: center;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+}
+.shipamenitiesrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.shipamenitiescolumn {
+	background-color: white;
+	height: 400px;
+	width: 387px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 10px 10px #405582;
+}
+
+.shipamenitiescolumn h3 {
+	color: white;
+	background-color: #002269;
+	padding: 25px 0px 25px 0px;
+	margin: 0px;
+}
+
+.shipamenitiescolumn ul {
+	width: 230px;
+	margin: 20px auto 0px auto;
+}
+.shipamenitiescolumn li {
+	margin: 15px 0px 15px 0px;
+}
+
+/* Our Starships End*/
+
+/*Flight Deals*/
+
+.dealsblock {
+	margin: 20px auto 70px auto;
+	color: white;
+}
+.dealsrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.deal {
+	display: flex;
+	margin: 20px;
+	max-width: 600px;
+	min-width: 400px;
+	height: 200px;
+}
+
+.dealmain {
+	background-color: #405582;
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+.dealmain p {
+	font-family:  "Quicksilver Italic", "Arial Black";
+	font-size: 30px;
+	margin: 45px 0px 0px 175px;
+	max-width: 140px;
+	min-width: 100px;
+	text-align: center;
+}
+.dealmainimg {
+	float: left;
+	margin: 13px 0px 0px 30px;
+}
+.dealmainimg img {
+	margin-bottom: 10px;
+}
+
+.dealtext {
+	text-align: center;
+	background-color: #002269;
+	float: right;
+	width: 200px;
+	height: 200px;
+}
+.dealtext p {
+	margin-top: 50px;
+	font-family:  "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.dealtext button {
+	float: center;
+	color: white;
+	background-color: #405582;
+	border: none;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.dealtext button:hover {
+	background-color: #66779b;
+}
+
+/*Flight Deals End*/
+
+/*Rewards*/
+
+.Pointequals {
+	text-align: center;
+	color: white;
+	background-color:  #002269;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	font-size: 30px;
+	width: 400px;
+	margin: 40px auto 0px auto;
+	padding: 1px 0px 1px 0px;
+	box-shadow: 10px 10px #405582;
+}
+
+.rewardsicons {
+	text-align: center;
+	margin: 50px 0px 30px 0px;
+	
+}
+.rewardsiconsrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 250px;
+}
+
+.rewardicon {
+	background-color: #002269;
+	width: 265px;
+	height: 165px;
+	margin: 20px;
+	box-shadow: 10px 10px #405582;
+}
+.rewardicontext {
+	font-family:  "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	text-align: center;
+	margin-top: 30px;
+}
+.rewardicon img {
+	margin: 5px 0px 0px -17px;
+	height: 150px;
+	width: auto;
+	max-width: 112%;
+}
+
+/*Rewards End*/
+
+/*Careers*/
+
+.missionstatement {
+	color: white;
+	background-color: #002269;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	padding: 30px;
+	margin: 40px auto 50px auto;
+	box-shadow: 10px 10px #405582;
+}
+
+.careerimgblock {
+	margin: auto;
+	max-width: 1300px;
+}
+.careerimgsrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.careerimg {
+	margin: 20px;
+}
+.careerimg img {
+	max-width: 100%;
+}
+.careerform {
+	background-color: #002269;
+	margin: 40px auto 80px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	height: 200px;
+	max-width: 1250px;
+	float: center;
+	box-shadow: 10px 10px #405582;
+}
+
+.careerform label, select, input {
+	display: block;
+}
+.careerform select {
+	height: 49px;
+	width: 150px;
+	font-size: 20px;
+	border-style: none;
+}
+.careerform input {
+	height: 49px;
+	width: 150px;
+	font-size: 20px;
+	border-style: none;
+}
+.careerform label {
+	margin-bottom: 15px;
+	text-align: left;
+}
+.careerformelement {
+	float: center;
+	display: inline-block;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+.careerformsubmit {
+	color: white;
+	background-color: #405582;
+	border: none;
+	padding: 10px;
+	margin-left: 50px;
+	margin-top: -48px;
+	cursor: pointer;
+}
+.careerformsubmit:hover {
+	background-color: #66779b;
+}
+
+/*Careers End*/
+
+/*FAQ*/
+
+.FAQ {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	margin: 40px auto 50px auto;
+	color: white;
+}
+.FAQ h2 {
+	color: white;
+	background-color: #002269;
+	padding: 10px 0px 10px 40px;
+	margin: auto;
+}
+
+.FAQone {
+	background-color: #66779b;
+	padding: 10px 40px 10px 40px;
+	
+}
+.FAQtwo {
+	background-color: #405582;
+	padding: 10px 40px 10px 40px;
+}
+
+/*FAQ End*/
+
+.legalese {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	margin: 40px 0px 70px 0px;
+}
+.legalese2 {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	margin-bottom: 70px;
+}
+.shortpage {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	text-align: center;
+	margin: 300px 0px 300px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.shortpage button {
+	color: white;
+	background-color: #002269;
+	border: none;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 10px 0px 10px 0px;
+	cursor: pointer;
+}
+.shortpage button:hover {
+	background-color: #405582;
+}
+
+/*Sitemap*/
+
+.sitemap {
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+	text-align: center;
+}
+.sitemaprow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1040px;
+	margin: 0px auto 0px auto;
+}
+.sitemapcolumn {
+	margin: 0px auto 0px auto;
+	width: 180px;
+	padding: 0px 10px 0px 10px;
+}
+.sitemapcolumn h3 {
+	margin-bottom: 30px;
+}
+.sitemapcolumn ul {
+	text-align: left;
+}
+.sitemapcolumn li {
+	margin: 15px 0px 15px 0px;
+}
+
+/*Sitemap End*/
+
+/*Footer*/
+
+footer {
+	background-color: #002269;
+	color: white;
+	font-family: "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+}
+.footercontent {
+	display: block;
+	max-width: 1300px;
+	margin: 0px auto 0px auto;
+	padding-top: 20px;
+	padding-bottom: 1px;
+}
+
+.socialheader {
+	display: flex;
+	margin: 0px 0px -60px 15px;
+	font-family:  "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+}
+.social {
+	display: flex;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+.social a {
+	color: white;
+	background-color: #405582;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.social :hover {
+	color: #405582;
+	background-color: white;
+}
+.footerrow {
+	display: flex;
+	justify-content: center;
+	margin: 50px auto 0px auto;
+	padding-top: 15px;
+	max-width: 1040px;
+}
+.footerrow h3 {
+	border-bottom: 3px solid #405582;
+	line-height: 40px;
+	font-family:  "Arial", "Franklin Gothic Bold",  "sans-serif", "Impact", "Haettenschweiler";
+}
+.footercolumn {
+	max-width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footercolumn a {
+	color: white;
+	text-decoration: none;
+}
+
+.footercolumn a:hover {
+	color: #405582;
+}
+.footerdisclaimer {
+	text-align: center;
+	margin: 50px 0px 20px 0px;
+}
+
+/*Footer End*/
+
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 100px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+
+/*Media Queries*/
+
+@media (min-width : 935px ){
+	
+	.imagetablet {
+		display: none;
+	}
+	.imagemobile {
+		display: none;
+	}
+	.cardmobile {
+		display: none;
+    }
+	.destinationmobile {
+		display: none;
+	}
+	.starimagetablet {
+		display: none;
+	}
+	
+}
+
+@media (max-width : 935px ){
+	
+	header {
+		display: flex;
+		flex-direction: row;
+		max-width: 935px;
+	}
+	.logo {
+		padding-left: 67px;
+	}
+	.checkbtn {
+		display: block;
+		margin-left: auto;
+	}
+	nav {
+		background-color: #002269;
+	}
+	nav ul {
+		background-color: #405582;
+		position: fixed;
+		width: 100%;
+		height: 420px;
+		top: 84px;
+		right: -110%;
+		text-align: center;
+		transition: all .5s;
+		
+	}
+	nav ul a {
+		display: block;
+		margin: 50px;
+
+	}
+	#check:checked ~ ul {
+		right: 0;
+	}
+	
+	.maincontainer {
+		max-width: 935px;
+		min-width: 480px;
+		width: auto;
+	}
+	
+	.imagedesktop {
+		display: none;
+	}
+	.imagemobile {
+		display: none;
+	}
+	.imagetablet {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.starimagedesktop {
+		display: none;
+	}
+	.starimagetablet {
+		display: block;
+	}
+	.cardmobile {
+		display: none;
+	}
+	.destinationmobile {
+		display: none;
+	}
+
+	.mainimg {
+		margin-top: 0px;
+		padding: 0px;
+	}
+	
+	.mainform {
+		max-width: 450px;
+		height: 450px;
+	}
+	.mainform label {
+		margin: 5px 0px 10px 0px;
+	}
+	.mainformelement {
+		display: block;
+		margin-left: 150px;
+		margin-right: auto;
+	}
+	.mainformsubmit {
+		margin: 30px 0px 0px 0px;
+	}
+	
+	/*Cards Tablet*/
+	
+	.cards {
+		margin: 0px auto 0px auto;
+		max-width: 600px;
+	}
+	.cardrow {
+		flex-direction: column;
+		margin: 0px;
+	}
+	.card {
+		margin: 20px auto 20px auto;
+	}
+	
+	/*Cards Tablet End*/
+	
+	.longimages {
+		max-width: 700px;
+		margin: 50px auto 70px auto;
+	}
+	.longimage { 
+		margin: 30px auto 40px auto;
+	}
+	
+	/*Destinations Tablet*/
+	
+	.destinationblock h2 {
+		margin: 0px 0px 10px 0px;
+		text-align: center;
+		padding-right: 40px;
+	}
+	.destinationrow {
+		flex-direction: column;
+	}
+	
+	.destination {
+		margin: 20px auto 20px auto;
+	}
+	
+	/*Destinations Tablet End*/
+	
+	/*Starships Tablet*/
+	
+	.starshipsone {
+		max-width: 700px;
+	}
+	.starshipstwo {
+		max-width: 700px;
+		margin-top: -5px;
+	}
+	.starshipsone h2 {
+		margin: 0px 0px 20px 0px;
+		text-align: center;
+		padding-right: 40px;
+	}
+	.starshipstwo h2 {
+		margin: 0px 0px 20px 0px;
+		text-align: center;
+		padding-right: 40px;
+	}
+	.infobox {
+		width: 600px;
+		height: 500px;
+		margin: 0px auto 60px auto;
+		max-width: 100%;
+	}
+	.infobox img {
+		max-width: 100%;
+	}
+	.infoboxtext {
+		width: auto;
+		margin: 0px;
+	}
+	.infobox2 {
+		width: 600px;
+		height: 500px;
+		margin: 0px auto 50px auto;
+		max-width: 100%;
+	}
+	.infobox2 img {
+		max-width: 100%;
+	}
+	.infoboxtext2 {
+		width: auto;
+		margin: 0px;
+	}
+	
+	.shipamenities {
+		margin: 50px 0px 50px 0px;
+	}
+	.shipamenitiescolumn {
+		
+		margin: 25px auto 25px auto;
+	}
+	.shipamenitiescolumn ul {
+		margin: 0px auto 0px auto;
+		
+	}
+	.shipamenitiesrow {
+		flex-direction: column;
+	}
+	
+	/*Starships Tablet End*/
+	
+	/*Deals Tablet*/
+	
+	.dealsblock {
+		max-width: 600px;
+	}
+	.dealsrow {
+		flex-direction: column;
+		max-width: 600px;
+	}
+	.deal {
+		margin: 20px auto 20px auto;
+		max-width: 100%;
+	}
+	
+	/*Deals Tablet End*/
+	
+	/*Rewards Tablet*/
+	
+	.rewardsiconsrow {
+		flex-direction: column;
+		margin: 0px auto 0px auto;
+		height: auto;
+	}
+	.rewardicon {
+		margin: 30px auto 30px auto;
+	}
+	
+	/*Rewards Tablet End*/
+	
+	/*Careers Tablet*/
+	
+	.missionstatement {
+		max-width: 700px;
+		width: auto;
+	}
+	
+	.careerimgblock {
+		margin: 50px 0px 50px 0px;
+	}
+	.careerimgsrow {
+		flex-direction: column;
+	}
+	.careerimg {
+		margin: 20px auto 20px auto;
+	}
+	
+	.careerform {
+		max-width: 450px;
+		height: 530px;
+	}
+	.careerform h3 {
+		padding: 0px 15px 0px 15px;
+	}
+	.careerform label {
+		margin: 5px 0px 10px 0px;
+	}
+	.careerformelement {
+		display: block;
+		margin-left: 150px;
+		margin-right: auto;
+	}
+	.careerformsubmit {
+		margin: 30px 0px 0px 0px;
+	}
+	
+	/*Careers Tablet End*/
+	
+	/*Footer pages Tablet*/
+	
+	.FAQ {
+		max-width: 700px;
+	}
+	.legalese {
+		padding: 0px 40px 0px 40px;
+	}
+	.legalese2 {
+		padding: 0px 40px 0px 40px;
+	}
+	.shortpage {
+		padding: 0px 40px 0px 40px;
+	}
+	
+	/*Footer pages Tablet End*/
+	
+	/*Footer Tablet*/
+	
+	.footercontent {
+		max-width: 850px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+	
+	/*Footer Tablet End*/
+}
+
+@media (max-width: 480px) {
+	
+	.maincontainer {
+		max-width: 480px;
+		min-width: 375px;
+	}
+
+	.imagedesktop {
+		display: none;
+	}
+	.imagetablet {
+		display: none;
+	}
+	.imagemobile {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.carddesktop {
+		display: none;
+	}
+	.cardmobile {
+		display: block;
+	}
+	.starimagedesktop {
+		display: none;
+	}
+	.starimagetablet {
+		display: none;
+	}
+	.destinationdesktop {
+		display: none;
+	}
+	.destinationmobile {
+		display: block;
+	}
+	
+	.mainform {
+		max-width: 350px;
+		height: 450px;
+	}
+	.mainformelement {
+		display: block;
+		margin-left: 100px;
+		margin-right: auto;
+	}
+
+	/*Cards mobile*/
+	
+	.cards {
+		max-width: 480px;
+	}
+	.cardrow {
+		flex-direction: column;
+		margin: 0px;
+	}
+	.card {
+		margin: 20px auto 20px auto;
+	}
+	
+	/*Cards Mobile End*/
+	
+	/*Destinations Mobile*/
+	
+	.destinationblock {
+		max-width: 400px;
+	}
+	.destinationblock h2 {
+		margin: 0px 0px 10px 0px;
+		text-align: center;
+		padding-right: 40px;
+	}
+	
+	.destinationrow {
+		flex-direction: column;
+	}
+	.destination {
+		margin: 20px auto 20px auto;
+	}
+	.destination img {
+		max-width: 400px;
+	}
+	
+	/*Destinations Mobile End*/
+	
+	/*Starships Mobile*/
+	
+	.starshipsone {
+		max-width: 400px;
+	}
+	.starshipstwo {
+		max-width: 400px;
+		margin-top: -5px;
+	}
+	.starshipsone h2 {
+		margin: 0px 0px 20px 0px;
+		text-align: center;
+		padding-right: 40px;
+	}
+	.starshipstwo h2 {
+		margin: 0px 0px 20px 0px;
+		text-align: center;
+		padding-right: 40px;
+	}
+	.infobox {
+		max-width: 400px;
+		height: 450px;
+		margin: 0px auto 60px auto;
+	}
+	.infobox img {
+		max-width: 400px;
+		margin: 0px;
+	}
+	.infoboxtext {
+		width: auto;
+		margin: 0px;
+	}
+	
+	.infobox2 {
+		max-width: 400px;
+		height: 450px;
+		margin: 0px auto 0px auto;
+	}
+	.infobox2 img {
+		max-width: 400px;
+		margin: 0px;
+	}
+	.infoboxtext2 {
+		width: auto;
+		margin: 0px;
+	}
+	.shipamenities {
+		margin: 50px 0px 50px 0px;
+	}
+	.shipamenitiescolumn {
+		margin: 25px auto 25px auto;
+	}
+	.shipamenitiescolumn ul {
+		margin: 0px auto 0px auto;
+	}
+	.shipamenitiesrow {
+		flex-direction: column;
+	}
+	
+	/*Starships Mobile End*/
+	
+	/*Flight Deals Mobile*/
+	
+	.dealsblock {
+		max-width: 400px;
+	}
+	.dealsrow {
+		flex-direction: column;
+		max-width: 400px;
+	}
+	.deal {
+		max-width: 400px;
+		margin: 20px auto 20px auto;
+	}
+	.dealmain p {
+		margin-left: 110px;
+	}
+	
+	/*Flight Deals Mobile End*/
+	
+	/*Rewards mobile*/
+	
+	.Pointequals {
+		max-width: 350px;
+	}
+
+	.rewardsiconsrow {
+		flex-direction: column;
+		max-width: 400px;
+		margin: 0px auto 0px auto;
+		height: auto;
+	}
+	.rewardicon {
+		margin: 30px auto 30px auto;
+	}
+	
+	/*Rewards mobile End*/
+	
+	/*Careers mobile*/
+	
+	.missionstatement {
+		max-width: 350px;
+		width: auto;
+	}
+	.careerimgblock {
+		margin: 50px 0px 50px 0px;
+	}
+	.careerimgsrow {
+		flex-direction: column;
+	}
+	
+	.careerimg {
+		margin: 20px auto 20px auto;
+		
+	}
+	.careerimg img {
+		max-width: 400px;
+	}
+	
+	.careerform {
+		max-width: 350px;
+		height: 560px;
+	}
+	.careerform h3 {
+		padding: 0px 15px 0px 15px;
+	}
+	.careerformelement {
+		display: block;
+		margin: 0px auto 0px 100px;
+	}
+	
+	/*Careers mobile End*/
+	
+	/*Footer pages mobile*/
+	
+	.FAQ {
+		max-width: 400px;
+	}
+	.sitemaprow {
+		flex-direction: column;
+	}
+	
+	/*Footer pages mobile End*/
+}
+
+/*Media Queries End*/
