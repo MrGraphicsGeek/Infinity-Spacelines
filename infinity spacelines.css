@@ -740,7 +740,6 @@ footer {
 	
 	.maincontainer {
 		max-width: 935px;
-		min-width: 480px;
 		width: auto;
 	}
 	
@@ -990,9 +989,23 @@ footer {
 
 @media (max-width: 480px) {
 	
+	.logo {
+		padding-right: 20px;
+		margin: auto;
+		max-width: 250px;
+	}
+	.logo img {
+		margin-left: 0px;
+		max-width: 100%;
+	}
+	.checkbtn {
+		margin-right: 30px;
+	}
+	nav ul {
+		right: -115%;
+	}
 	.maincontainer {
 		max-width: 480px;
-		min-width: 375px;
 	}
 
 	.imagedesktop {
@@ -1067,9 +1080,6 @@ footer {
 	}
 	.destination {
 		margin: 20px auto 20px auto;
-	}
-	.destination img {
-		max-width: 400px;
 	}
 	
 	/*Destinations Mobile End*/
@@ -1186,11 +1196,7 @@ footer {
 	}
 	
 	.careerimg {
-		margin: 20px auto 20px auto;
-		
-	}
-	.careerimg img {
-		max-width: 400px;
+		margin: 20px auto 20px auto;	
 	}
 	
 	.careerform {
@@ -1206,6 +1212,26 @@ footer {
 	}
 	
 	/*Careers mobile End*/
+	
+	/*Footer mobile*/
+	
+	.socialheader {
+		height: 110px;
+		text-align: center;
+		display: block;
+	}
+	.social {
+		float: none;
+		margin: 0px auto 0px auto;
+		width: fit-content;
+	}
+	.footerrow {
+		flex-direction: column;
+		margin-top: 20px;
+		text-align: center;
+	}
+	
+	/*Footer mobile End*/
 	
 	/*Footer pages mobile*/
 	
