@@ -1045,8 +1045,9 @@ footer {
 	}
 	.mainformelement {
 		display: block;
-		margin-left: 100px;
+		margin-left: auto;
 		margin-right: auto;
+		width: fit-content;
 	}
 
 	/*Cards mobile*/
@@ -1208,7 +1209,8 @@ footer {
 	}
 	.careerformelement {
 		display: block;
-		margin: 0px auto 0px 100px;
+		margin: 0px auto 0px auto;
+		width: fit-content;
 	}
 	
 	/*Careers mobile End*/
