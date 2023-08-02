@@ -1257,7 +1257,9 @@ footer {
 	.legalese, .legalese2 {
 		padding: 0px 20px 0px 20px;
 	}
-	
+	.shortpage {
+		padding: 0px 20px 0px 20px;
+	}
 	/*Footer pages mobile End*/
 }
 
