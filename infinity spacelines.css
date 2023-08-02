@@ -1104,14 +1104,12 @@ footer {
 		text-align: center;
 		padding-right: 40px;
 	}
+	
 	.infobox {
-		max-width: 400px;
+		width: 400px;
 		height: 450px;
 		margin: 0px auto 60px auto;
-	}
-	.infobox img {
-		max-width: 400px;
-		margin: 0px;
+		box-shadow: 10px 15px #405582;
 	}
 	.infoboxtext {
 		width: auto;
@@ -1119,13 +1117,10 @@ footer {
 	}
 	
 	.infobox2 {
-		max-width: 400px;
+		width: 400px;
 		height: 450px;
 		margin: 0px auto 0px auto;
-	}
-	.infobox2 img {
-		max-width: 400px;
-		margin: 0px;
+		box-shadow: 10px 15px #405582;
 	}
 	.infoboxtext2 {
 		width: auto;
@@ -1136,9 +1131,12 @@ footer {
 	}
 	.shipamenitiescolumn {
 		margin: 25px auto 25px auto;
+		max-width: 100%;
 	}
 	.shipamenitiescolumn ul {
 		margin: 0px auto 0px auto;
+		width: auto;
+		max-width: 230px;
 	}
 	.shipamenitiesrow {
 		flex-direction: column;
@@ -1156,11 +1154,21 @@ footer {
 		max-width: 400px;
 	}
 	.deal {
-		max-width: 400px;
+		max-width: 100%;
+		min-width: 0px;
 		margin: 20px auto 20px auto;
 	}
+	
 	.dealmain p {
-		margin-left: 110px;
+		margin-left: 105px;
+		font-size: 25px;
+		padding-right: 5px;
+	}
+	.dealmainimg {
+		margin: 23px 0px 0px 30px;
+	}
+	.dealmainimg img {
+		width: 65px;
 	}
 	
 	/*Flight Deals Mobile End*/
@@ -1169,6 +1177,7 @@ footer {
 	
 	.Pointequals {
 		max-width: 350px;
+		width: auto;
 	}
 
 	.rewardsiconsrow {
@@ -1179,6 +1188,8 @@ footer {
 	}
 	.rewardicon {
 		margin: 30px auto 30px auto;
+		width: auto;
+		max-width: 265px;
 	}
 	
 	/*Rewards mobile End*/
@@ -1242,6 +1253,9 @@ footer {
 	}
 	.sitemaprow {
 		flex-direction: column;
+	}
+	.legalese, .legalese2 {
+		padding: 0px 20px 0px 20px;
 	}
 	
 	/*Footer pages mobile End*/
